@@ -1,11 +1,10 @@
 interface NavBarProps {
-  brandName: string;
   imageSrcPath: string;
 }
 
-function NavBar({ brandName, imageSrcPath }: NavBarProps) {
+function NavBar({ imageSrcPath }: NavBarProps) {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img
@@ -53,17 +52,12 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Links
               </a>
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
+                    Github
                   </a>
                 </li>
                 <li>
@@ -71,7 +65,15 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Something else here
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <hr className="dropdown-divider" />
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Resume
                   </a>
                 </li>
               </ul>
