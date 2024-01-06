@@ -7,13 +7,19 @@ interface HomeProps {
 function Home({ imageSrcPath }: HomeProps) {
   return (
     <div className="container mt-5">
-      <div className="row align-items-center">
-        <div className="col-md-6">
-          <img
-            src={imageSrcPath}
-            className="img-fluid rounded-circle"
-            alt="Profile"
-          />
+      <div className="row justify-content-center align-items-center">
+        <div className="col-md-6 text-center">
+          <div
+            className="rounded-circle overflow-hidden mx-auto"
+            style={{ width: "300px", height: "300px" }}
+          >
+            <img
+              src={imageSrcPath}
+              className="img-fluid"
+              alt="Profile"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
+          </div>
         </div>
         <div className="col-md-6 mt-4 mt-md-0">
           <h1 className="display-4 mb-3">Hello, I'm Luis Ventura</h1>
