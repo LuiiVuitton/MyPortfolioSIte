@@ -1,3 +1,8 @@
+import { FaHome } from "react-icons/fa"; // Importing Font Awesome icons
+import { IoMdPerson } from "react-icons/io";
+import { FaTools } from "react-icons/fa";
+import { PiLinkSimpleBold } from "react-icons/pi";
+
 interface NavBarProps {
   imageSrcPath: string;
 }
@@ -30,16 +35,19 @@ function NavBar({ imageSrcPath }: NavBarProps) {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
+                <FaHome />
                 Home
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#">
+                <IoMdPerson />
                 About
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#">
+                <FaTools />
                 Projects
               </a>
             </li>
@@ -52,6 +60,7 @@ function NavBar({ imageSrcPath }: NavBarProps) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
+                <PiLinkSimpleBold />
                 Links
               </a>
               <ul className="dropdown-menu">
