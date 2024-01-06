@@ -2,6 +2,9 @@ import { FaHome } from "react-icons/fa"; // Importing Font Awesome icons
 import { IoMdPerson } from "react-icons/io";
 import { FaTools } from "react-icons/fa";
 import { PiLinkSimpleBold } from "react-icons/pi";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 
 interface NavBarProps {
   imageSrcPath: string;
@@ -66,6 +69,7 @@ function NavBar({ imageSrcPath }: NavBarProps) {
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="#">
+                    <FaGithub />
                     Github
                   </a>
                 </li>
@@ -74,6 +78,7 @@ function NavBar({ imageSrcPath }: NavBarProps) {
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
+                    <FaLinkedin />
                     LinkedIn
                   </a>
                 </li>
@@ -82,6 +87,7 @@ function NavBar({ imageSrcPath }: NavBarProps) {
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
+                    <FaDownload />
                     Resume
                   </a>
                 </li>
