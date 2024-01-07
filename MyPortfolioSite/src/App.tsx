@@ -8,13 +8,16 @@ import Home from "./pages/Index/Home";
 import About from "./pages/About";
 import imagePath3 from "./assets/background1.jpg";
 import Projects from "./pages/Projects";
+import imagePath4 from "./assets/C2A-Website.png";
+import Contact from "./pages/Contact";
 function App() {
   return (
     <div>
       <NavBar imageSrcPath={imagePath} />
       <Home imageSrcPath={imagePath2} />
       <About imageSrcPath={imagePath3} />
-      <Projects />
+      <Projects imageSrcPath={imagePath4} />
+      <Contact />
     </div>
   );
 }

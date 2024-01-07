@@ -5,6 +5,7 @@ import { PiLinkSimpleBold } from "react-icons/pi";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
 interface NavBarProps {
   imageSrcPath: string;
@@ -12,7 +13,7 @@ interface NavBarProps {
 
 function NavBar({ imageSrcPath }: NavBarProps) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img
@@ -37,21 +38,28 @@ function NavBar({ imageSrcPath }: NavBarProps) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#Home">
                 <FaHome />
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">
+              <a className="nav-link" aria-current="page" href="#About">
                 <IoMdPerson />
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">
+              <a className="nav-link" aria-current="page" href="#Projects">
                 <FaTools />
                 Projects
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" aria-current="page" href="#Contact">
+                <IoMdMail />
+                Contact
               </a>
             </li>
 
@@ -68,7 +76,10 @@ function NavBar({ imageSrcPath }: NavBarProps) {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a
+                    className="dropdown-item"
+                    href="https://github.com/LuiiVuitton?tab=overview&from=2024-01-01&to=2024-01-07"
+                  >
                     <FaGithub />
                     Github
                   </a>
@@ -77,7 +88,10 @@ function NavBar({ imageSrcPath }: NavBarProps) {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.linkedin.com/in/luis-ventura-ab5819246/"
+                  >
                     <FaLinkedin />
                     LinkedIn
                   </a>
