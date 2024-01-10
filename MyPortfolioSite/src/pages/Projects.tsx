@@ -1,3 +1,5 @@
+import { LuConstruction } from "react-icons/lu";
+
 interface ProjectProps {
   imageSrcPath: string;
 }
@@ -33,11 +35,11 @@ function Projects({ imageSrcPath }: ProjectProps) {
                 <li className="list-group-item">AWS CloudFront</li>
               </ul>
               <div className="card-body">
-                <a href="#" className="card-link">
-                  Card link
-                </a>
-                <a href="#" className="card-link">
-                  Another link
+                <a
+                  href="https://c2analyticsolutions.com/"
+                  className="card-link"
+                >
+                  www.c2analyticsolutions.com
                 </a>
               </div>
             </div>
@@ -52,23 +54,25 @@ function Projects({ imageSrcPath }: ProjectProps) {
                 alt="Card image cap"
               />
               <div className="card-body">
-                <h5 className="card-title">Card 2</h5>
+                <h5 className="card-title">Coming soon...</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 </p>
               </div>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Feature 1</li>
-                <li className="list-group-item">Feature 2</li>
-                <li className="list-group-item">Feature 3</li>
+                <li className="list-group-item">
+                  <LuConstruction />
+                </li>
+                <li className="list-group-item">
+                  <LuConstruction />
+                </li>
+                <li className="list-group-item">
+                  <LuConstruction />
+                </li>
               </ul>
               <div className="card-body">
                 <a href="#" className="card-link">
-                  Card link
-                </a>
-                <a href="#" className="card-link">
-                  Another link
+                  <LuConstruction />
                 </a>
               </div>
             </div>
@@ -83,23 +87,25 @@ function Projects({ imageSrcPath }: ProjectProps) {
                 alt="Card image cap"
               />
               <div className="card-body">
-                <h5 className="card-title">Card 3</h5>
+                <h5 className="card-title">Coming soon...</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Feature 1</li>
-                <li className="list-group-item">Feature 2</li>
-                <li className="list-group-item">Feature 3</li>
+                <li className="list-group-item">
+                  <LuConstruction />
+                </li>
+                <li className="list-group-item">
+                  <LuConstruction />
+                </li>
+                <li className="list-group-item">
+                  <LuConstruction />
+                </li>
               </ul>
               <div className="card-body">
                 <a href="#" className="card-link">
-                  Card link
-                </a>
-                <a href="#" className="card-link">
-                  Another link
+                  <LuConstruction />
                 </a>
               </div>
             </div>

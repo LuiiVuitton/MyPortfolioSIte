@@ -7,23 +7,10 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
-interface NavBarProps {
-  imageSrcPath: string;
-}
-
-function NavBar({ imageSrcPath }: NavBarProps) {
+function NavBar() {
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <img
-            src={imageSrcPath}
-            width="60"
-            height="60"
-            className="d-inline-block align-center"
-            alt=""
-          />
-        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -40,26 +27,26 @@ function NavBar({ imageSrcPath }: NavBarProps) {
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#Home">
                 <FaHome />
-                Home
+                {"    "}Home
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#About">
                 <IoMdPerson />
-                About
+                {"    "}About
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#Projects">
                 <FaTools />
-                Projects
+                {"    "}Projects
               </a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#Contact">
                 <IoMdMail />
-                Contact
+                {"    "}Contact
               </a>
             </li>
 
@@ -72,7 +59,7 @@ function NavBar({ imageSrcPath }: NavBarProps) {
                 aria-expanded="false"
               >
                 <PiLinkSimpleBold />
-                Links
+                {"    "}Links
               </a>
               <ul className="dropdown-menu">
                 <li>
@@ -81,7 +68,7 @@ function NavBar({ imageSrcPath }: NavBarProps) {
                     href="https://github.com/LuiiVuitton?tab=overview&from=2024-01-01&to=2024-01-07"
                   >
                     <FaGithub />
-                    Github
+                    {"    "}Github
                   </a>
                 </li>
                 <li>
@@ -93,7 +80,7 @@ function NavBar({ imageSrcPath }: NavBarProps) {
                     href="https://www.linkedin.com/in/luis-ventura-ab5819246/"
                   >
                     <FaLinkedin />
-                    LinkedIn
+                    {"    "}LinkedIn
                   </a>
                 </li>
                 <li>
@@ -102,7 +89,7 @@ function NavBar({ imageSrcPath }: NavBarProps) {
                 <li>
                   <a className="dropdown-item" href="#">
                     <FaDownload />
-                    Resume
+                    {"    "}Resume
                   </a>
                 </li>
               </ul>

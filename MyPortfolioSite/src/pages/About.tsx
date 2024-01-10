@@ -1,8 +1,10 @@
 interface AboutProps {
   imageSrcPath: string;
+  imageSrcPath2: string;
+  imageSrcPath3: string;
 }
 
-function About({ imageSrcPath }: AboutProps) {
+function About({ imageSrcPath, imageSrcPath2, imageSrcPath3 }: AboutProps) {
   return (
     <div id="About">
       <div className="about-section mt-5 py-4">
@@ -10,17 +12,19 @@ function About({ imageSrcPath }: AboutProps) {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <h2>About Me</h2>
+
               <p>
-                I'm passionate about technology and love creating amazing web
-                experiences. I specialize in front-end development and enjoy
-                working with React and TypeScript.
+                When I'm not coding, you'll find me exploring the latest trends
+                in tech, and experimenting with personal projects. I specialize
+                in front-end development and enjoy working with React and
+                Typescript.
               </p>
               <p>Here are some of my skills:</p>
               <ul className="skills-list">
                 <li>React.js</li>
                 <li>TypeScript</li>
-                <li>HTML5 & CSS3</li>
-                <li>JavaScript (ES6+)</li>
+                <li>HTML & CSS3</li>
+                <li>JavaScript</li>
                 <li>Responsive Web Design</li>
               </ul>
             </div>
@@ -44,7 +48,7 @@ function About({ imageSrcPath }: AboutProps) {
                   </div>
                   <div className="carousel-item">
                     <img
-                      src="https://via.placeholder.com/600x400"
+                      src={imageSrcPath2}
                       alt="Second slide"
                       className="d-block w-100"
                     />
@@ -55,7 +59,7 @@ function About({ imageSrcPath }: AboutProps) {
                   </div>
                   <div className="carousel-item">
                     <img
-                      src="https://via.placeholder.com/600x400"
+                      src={imageSrcPath3}
                       alt="Third slide"
                       className="d-block w-100"
                     />
