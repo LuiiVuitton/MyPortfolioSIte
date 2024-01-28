@@ -25,8 +25,8 @@ function Home({ imageSrcPath }: HomeProps) {
           <div className="col-md-6 mt-4 mt-md-0">
             <h1 className="display-4 mb-3">Hello, I'm Luis Ventura</h1>
             <p className="lead">
-              I'm a passionate Front-End Developer with a love for creating
-              innovative and user-friendly web applications.
+              I'm a Software Engineer with a love for creating innovative and
+              user-friendly web applications.
             </p>
             <p>Let's work together and create something amazing!</p>
             <div className="mt-4">
