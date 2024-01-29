@@ -16,7 +16,7 @@ function Contact() {
                 {/* Image removed */}
                 <form
                   className="custom-form"
-                  action="mailto:adminc2@c2analyticsolutions.com"
+                  action="mailto:luis1134@icloud.com"
                   method="post"
                   encType="text/plain"
                 >
