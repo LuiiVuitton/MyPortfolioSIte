@@ -1,4 +1,3 @@
-import { LuConstruction } from "react-icons/lu";
 import "./Project.css";
 
 interface ProjectProps {
