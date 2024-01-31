@@ -15,6 +15,7 @@ import resume from "./assets/Resume1- Luis Ventura.pdf";
 import imagePath7 from "./assets/CarApp.png";
 import videoPath from "./assets/CarAppVideo.mp4";
 import imagePath8 from "./assets/AWS-CCP.png";
+import imagePath9 from "./assets/MC-AA.png";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         imageSrcPath2={imagePath7}
         videoSrcPath={videoPath}
         imageSrcPath3={imagePath8}
+        imageSrcPath4={imagePath9}
       />
       <Contact />
     </div>

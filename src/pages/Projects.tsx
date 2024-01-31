@@ -6,9 +6,15 @@ interface ProjectProps {
   imageSrcPath2: string;
   videoSrcPath: string;
   imageSrcPath3: string;
+  imageSrcPath4: string;
 }
 
-function Projects({ imageSrcPath, videoSrcPath, imageSrcPath3 }: ProjectProps) {
+function Projects({
+  imageSrcPath,
+  videoSrcPath,
+  imageSrcPath3,
+  imageSrcPath4,
+}: ProjectProps) {
   return (
     <div id="Projects">
       <div className="container mt-5">
@@ -108,7 +114,7 @@ function Projects({ imageSrcPath, videoSrcPath, imageSrcPath3 }: ProjectProps) {
                     AWS Certified Cloud Practitioner
                   </h5>
                   <p className="card-text">
-                    Currently pursuing the "AWS Certified Cloud Practitioner"
+                    Currently pursuing: The "AWS Certified Cloud Practitioner"
                     Certification.
                   </p>
                 </div>
@@ -132,32 +138,36 @@ function Projects({ imageSrcPath, videoSrcPath, imageSrcPath3 }: ProjectProps) {
             <div className="col mb-4">
               <div className="card">
                 <img
-                  src="https://via.placeholder.com/300x165"
+                  src={imageSrcPath4}
                   className="card-img-top"
                   alt="Card image cap"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Coming soon...</h5>
+                  <h5 className="card-title">
+                    Computer Science and Technologies Associates Degree
+                  </h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Currently pursuing: Information Sciences and Systems Area of
+                    Concentration
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
+                  <li className="list-group-item">ETA: December 2024</li>
                   <li className="list-group-item">
-                    <LuConstruction />
+                    Montgomery College: Rockville, MD
                   </li>
+
                   <li className="list-group-item">
-                    <LuConstruction />
-                  </li>
-                  <li className="list-group-item">
-                    <LuConstruction />
+                    <a
+                      href="https://www.montgomerycollege.edu/academics/programs/computer-science-and-technologies/computer-science-technologies-aa-degree-information-sciences-and-systems-concentration.html"
+                      className="card-link"
+                    >
+                      <button type="button" className="btn btn-primary">
+                        View project
+                      </button>
+                    </a>
                   </li>
                 </ul>
-                <div className="card-body">
-                  <a href="#" className="card-link">
-                    <LuConstruction />
-                  </a>
-                </div>
               </div>
             </div>
           </div>
