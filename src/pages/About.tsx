@@ -90,7 +90,6 @@ function About({ imageSrcPath, imageSrcPath2, imageSrcPath3 }: AboutProps) {
           </div>
         </div>
       </div>
-      <hr></hr>
     </div>
   );
 }

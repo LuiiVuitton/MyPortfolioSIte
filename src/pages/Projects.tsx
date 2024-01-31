@@ -5,9 +5,10 @@ interface ProjectProps {
   imageSrcPath: string;
   imageSrcPath2: string;
   videoSrcPath: string;
+  imageSrcPath3: string;
 }
 
-function Projects({ imageSrcPath, videoSrcPath }: ProjectProps) {
+function Projects({ imageSrcPath, videoSrcPath, imageSrcPath3 }: ProjectProps) {
   return (
     <div id="Projects">
       <div className="container mt-5">
@@ -46,6 +47,8 @@ function Projects({ imageSrcPath, videoSrcPath }: ProjectProps) {
                 </p>
               </div>
             </div>
+
+            <hr></hr>
 
             {/* Center the heading */}
             <h1>Projects</h1>
@@ -96,32 +99,32 @@ function Projects({ imageSrcPath, videoSrcPath }: ProjectProps) {
             <div className="col mb-4">
               <div className="card">
                 <img
-                  src="https://via.placeholder.com/300x165"
+                  src={imageSrcPath3}
                   className="card-img-top"
                   alt="Card image cap"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Coming soon...</h5>
+                  <h5 className="card-title">
+                    AWS Certified Cloud Practitioner
+                  </h5>
                   <p className="card-text">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Currently pursuing the "AWS Certified Cloud Practitioner"
+                    Certification.
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
+                  <li className="list-group-item">ETA: September 2024</li>
                   <li className="list-group-item">
-                    <LuConstruction />
-                  </li>
-                  <li className="list-group-item">
-                    <LuConstruction />
-                  </li>
-                  <li className="list-group-item">
-                    <LuConstruction />
+                    <a
+                      href="https://aws.amazon.com/certification/certified-cloud-practitioner/?gclid=Cj0KCQiA2eKtBhDcARIsAEGTG40o4GWk9I-tjO21JffqpCKM6yJq6dbe4X8WjizqVUanuwTTlzYdU8QaAozdEALw_wcB&trk=c228b2f7-f72a-429c-a18d-b8304f6391df&sc_channel=ps&ef_id=Cj0KCQiA2eKtBhDcARIsAEGTG40o4GWk9I-tjO21JffqpCKM6yJq6dbe4X8WjizqVUanuwTTlzYdU8QaAozdEALw_wcB:G:s&s_kwcid=AL!4422!3!683982754255!!!g!!!20851909384!165100744308"
+                      className="card-link"
+                    >
+                      <button type="button" className="btn btn-primary">
+                        View project
+                      </button>
+                    </a>
                   </li>
                 </ul>
-                <div className="card-body">
-                  <a href="#" className="card-link">
-                    <LuConstruction />
-                  </a>
-                </div>
               </div>
             </div>
 
