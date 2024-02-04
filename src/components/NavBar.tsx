@@ -13,7 +13,7 @@ interface NavProps {
 
 function NavBar({ resumeSrcPath }: NavProps) {
   return (
-    <nav className="navbar sticky-top shadow-lg navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar sticky-top shadow-lg navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <button
           className="navbar-toggler"

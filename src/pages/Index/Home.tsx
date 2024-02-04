@@ -1,12 +1,11 @@
 // Home.tsx
-
 interface HomeProps {
   imageSrcPath: string;
 }
 
 function Home({ imageSrcPath }: HomeProps) {
   return (
-    <div id="Home">
+    <div id="Home" style={{ paddingBottom: "40px" }}>
       <div className="container mt-5">
         <div className="row justify-content-center align-items-center">
           <div className="col-md-6 text-center">
@@ -23,10 +22,15 @@ function Home({ imageSrcPath }: HomeProps) {
             </div>
           </div>
           <div className="col-md-6 mt-4 mt-md-0">
-            <h1 className="display-4 mb-3">Hello, I'm Luis Ventura</h1>
+            <h1 className="display-4 mb-3">
+              Hello, I'm <span style={{ color: "dodgerblue" }}>Luis</span>{" "}
+              Ventura
+            </h1>
             <p className="lead">
-              I'm a Software Engineer with a love for creating innovative and
-              user-friendly web applications.
+              I'm a{" "}
+              <span style={{ color: "dodgerblue" }}>Software Engineer</span>{" "}
+              with a love for creating innovative and user-friendly web
+              applications.
             </p>
             <p>Let's work together and create something amazing!</p>
             <div className="mt-4">
