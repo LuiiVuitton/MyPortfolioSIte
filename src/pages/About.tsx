@@ -4,9 +4,9 @@ interface AboutProps {
 
 function About({ resumeSrcPath }: AboutProps) {
   return (
-    <div id="About" className="bg-dark text-light py-5">
-      <div className="container">
-        <div className="row">
+    <div id="About" className="bg-dark text-light py-5 ">
+      <div className="container text-center">
+        <div className="row d-flex justify-content-center">
           <div className="col-lg-6 order-lg-2">
             {/* Change order to 2 for the image column on larger screens */}
             <h1>About me</h1>

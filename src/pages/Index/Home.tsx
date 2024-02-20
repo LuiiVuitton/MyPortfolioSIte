@@ -34,7 +34,7 @@ function Home({ imageSrcPath }: HomeProps) {
             </p>
             <p>Let's work together and create something amazing!</p>
             <div className="mt-4">
-              <a href="#Contact" className="btn btn-primary me-3">
+              <a href="#Contact" className="btn btn-info me-3">
                 Contact Me
               </a>
               <a href="#Projects" className="btn btn-outline-secondary">
