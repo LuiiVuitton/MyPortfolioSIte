@@ -12,13 +12,13 @@ function About({ resumeSrcPath }: AboutProps) {
             <h1>About me</h1>
 
             <p className="lead">
-              A passionate Software Engineer based in Gaithersburg, MD.
+              An IT Support Technician based in Gaithersburg, MD.
             </p>
             <p>
-              When I'm not coding, I love exploring the latest tech trends and
-              working on creative projects. My expertise lies in front-end
-              development, and I enjoy crafting beautiful and responsive web
-              applications using React and TypeScript.
+              I have strong background in troubleshooting and resolving
+              technical issues for both computer systems and networks. With a
+              focus on delivering exceptional customer service, I strive to
+              ensure seamless and efficient operations for all users.
             </p>
 
             <div className="row mt-4">

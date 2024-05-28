@@ -28,11 +28,12 @@ function Home({ imageSrcPath }: HomeProps) {
             </h1>
             <p className="lead">
               I'm a{" "}
-              <span style={{ color: "dodgerblue" }}>Software Engineer</span>{" "}
-              with a love for creating innovative and user-friendly web
-              applications.
+              <span style={{ color: "dodgerblue" }}>IT Support Technician</span>{" "}
+              my commitment to excellent customer service and efficient
+              problem-solving drives me to deliver top-notch support in every
+              interaction.
             </p>
-            <p>Let's work together and create something amazing!</p>
+            <p>Simplifying Technology, Enhancing Productivity.</p>
             <div className="mt-4">
               <a href="#Contact" className="btn btn-info me-3">
                 Contact Me

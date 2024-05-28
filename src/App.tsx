@@ -9,7 +9,7 @@ import Projects from "./pages/Projects";
 import imagePath4 from "./assets/C2A-Website2.png";
 import Contact from "./pages/Contact";
 
-import resume from "./assets/Resume- Luis Ventura.pdf";
+import resume from "./assets/ServiceDeskResume- Luis Ventura.pdf";
 import imagePath7 from "./assets/CarApp.png";
 import videoPath from "./assets/CarAppVideo.mp4";
 import imagePath8 from "./assets/AWS-CCP.png";
